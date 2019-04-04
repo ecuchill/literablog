@@ -1,0 +1,6 @@
+access contenido:
+  title: 'Acceso a las noticias'
+  description: 'Permite acceder al contenido de las noticias'
+access config:
+  title: 'Acceso a la configuración'
+  description: 'Permite configurar el módulo noticias'

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Documento Module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * {@inheritdoc}
+ */
+function noticias_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Aparece en la descripción del modulo junto permisos.
+    case 'help.page.noticias':
+      return t('Esta es la página de ayuda de noticias.');
+
+    // Aparece en la región Help que se puso en la estructura.
+    case 'noticias.noticia':
+      return t('Esta es la página de ayuda del apartado de configuración de noticias.');
+  }
+}

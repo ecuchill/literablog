@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Archivo para generar código PHP para twig.
+ */
+
+/**
+ * Funcion Preprocess en general para pruebas.
+ *
+ * @param array &$variables
+ *   Variables del sistema.
+ */
+function curso_preprocess(array &$variables) {
+  $variables['texto'] = '<p> Hola Caracola <p>';
+}
+
+/**
+ * Funcion Preprocess para obtener la ruta absoluta de una imagen.
+ *
+ * @param array $variables
+ *   Variables del sistema.
+ */
+function curso_preprocess_region__buscador(array &$variables) {
+  $variables['rutalogo'] = drupal_get_path('theme', 'curso') . '/images/seta.svg';
+  $variables['mostrarlogo'] = '<p> Hola 2 </p>';
+
+}
