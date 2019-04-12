@@ -1,0 +1,63 @@
+.alien-off {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px 0px;
+}
+.alien1-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px -14px;
+}
+.alien2-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px -28px;
+}
+.alien3-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px -42px;
+}
+.alien4-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px -56px;
+}
+.alien5-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px -70px;
+}
+.alien6-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px -84px;
+}
+.alien7-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px -98px;
+}
+.alien8-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('alien.png') no-repeat 0px -112px;
+}

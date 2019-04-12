@@ -1,0 +1,29 @@
+uuid: 90827399-6a22-4d64-9caa-c8f48aec4907
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.noticia.body
+    - node.type.noticia
+  module:
+    - text
+    - user
+id: node.noticia.default
+targetEntityType: node
+bundle: noticia
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

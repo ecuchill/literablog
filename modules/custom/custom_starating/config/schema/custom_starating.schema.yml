@@ -1,0 +1,13 @@
+field.formatter.settings.custom_starating:
+  type: mapping
+  label: 'FORMATTER CUSTOM STARATING'
+  mapping:
+    custom_fill_blank:
+      type: integer
+      label: 'Fill Blank'
+    custom_icon_type:
+      type: string
+      label: 'Icon Type'
+    custom_icon_color:
+      type: integer
+      label: 'Icon Color'

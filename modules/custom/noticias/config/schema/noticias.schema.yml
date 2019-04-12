@@ -1,0 +1,7 @@
+block.settings.noticias_simple:
+  type: block_settings
+  label: "Configuración del bloque noticias"
+  mapping:
+    noticias_block_string:
+      type: text
+      label: "Texto que aparece en la parte superior del bloque"

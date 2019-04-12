@@ -1,0 +1,8 @@
+name: 'Custom Starating'
+description: 'To customize icon type of punctuation in Starrating module'
+type: module
+dependencies:
+  - field
+  - starrating
+version: 1.0
+core: 8.x
