@@ -2,7 +2,9 @@ framework:
   css:
     theme:
       css/style.css: {}
+      css/customstyle.css: {}
   js:
+    js/customscripts.js: {}
     bootstrap/assets/javascripts/bootstrap/affix.js: {}
     bootstrap/assets/javascripts/bootstrap/alert.js: {}
     bootstrap/assets/javascripts/bootstrap/button.js: {}

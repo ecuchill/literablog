@@ -1,0 +1,11 @@
+#block-formularioexpuestosearch-reviewsearch{
+  float: right;
+  margin-top: 8px;
+}
+#edit-search-api-fulltext{
+  border: none;
+  border-bottom: solid black 2px;
+  border-radius: 0px;
+  background: transparent;
+  box-shadow: none;
+}

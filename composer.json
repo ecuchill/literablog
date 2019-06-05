@@ -15,7 +15,7 @@
         "drupal/devel": "^2.0",
         "drupal/viewsreference": "^1.4",
         "drupal/paragraphs": "^1.7",
-        "drupal/field_group": "3.0-beta1",
+        "drupal/field_group": "3.0-rc1",
         "drupal/menu_link_attributes": "^1.0",
         "drupal/linkit": "^4.3",
         "drupal/embed": "^1.0",
@@ -33,7 +33,11 @@
         "drupal/rules": "^3.0@alpha",
         "drupal/slick": "1.1",
         "drupal/slick_views": "1.0",
-        "drupal/slick_extras": "1.0-rc2"
+        "drupal/slick_extras": "1.0-rc2",
+        "drupal/kint": "^2.0",
+        "drupal/search_kint": "^1.0",
+        "drupal/adminimal_theme": "1.5",
+        "drupal/bootstrap": "3.19"
     },
     "replace": {
         "drupal/core": "^8.6"
