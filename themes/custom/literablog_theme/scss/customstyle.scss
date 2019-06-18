@@ -1,0 +1,109 @@
+//Mover el formulario de búsqueda.
+#block-formularioexpuestosearch-reviewsearch{
+  float: right;
+
+
+// Quitar box input del search
+#edit-search-api-fulltext{
+  border: none;
+  border-bottom: solid black 2px;
+  border-radius: 0px;
+  background: transparent;
+  box-shadow: none;
+}
+
+// Quitar botón de la búsqueda.
+#edit-submit-search-review{
+background: transparent;
+border:none;
+box-shadow: none;
+
+  .fa-search{
+    font-size:x-large;
+  }
+}
+
+div.form--inline{
+  display:flex;
+  margin-top:15px;
+}
+}
+
+#navbar{
+  background-color: #fff;
+  border-color: #555;
+  border-width: 0 0 2px;
+  min-height: 85px;
+  margin-top: 10px;
+  top:66px;
+  &.scrollUp {
+    transform:translateY(-100px);
+  }
+
+  .navbar-brand{
+    color: #754681;
+    font-size: 37px;
+    text-shadow: 0 1px 2px #333;
+    margin-top:12px;
+  }
+  ul.menu--main{
+    margin-top:15px;
+  }
+}
+
+div.main-container{
+  margin-top: 50px;
+
+  section#block-views-block-front-carousel-block-front-carousel>h2{
+    text-align: center;
+    text-shadow: 0px 1px 7px #754781;
+    margin-bottom: 35px;
+    text-decoration: underline;
+  }
+
+}
+
+//Slide
+
+div#slick-views-front-carousel-block-front-carousel-1{
+
+  ul.slide__content {
+    display:flex;
+    justify-content: center;
+   li.slide__grid {
+    width: 20%;
+    }
+  div.slide__caption {
+    text-align: center;
+    h2.slide__title{
+      font-size: 20px;
+      a{
+       color: #754781;
+      }
+    }
+  }
+  div.starrating{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+  }
+
+  .slick-prev:before {
+    padding: 0 10px;
+    color: #754681;
+    position: absolute;
+    font-size: 50px;
+    top: 0%;
+    left: 20%;
+}
+
+.slick-next:before {
+    padding: 0 10px;
+    color: #754681;
+    position: absolute;
+    font-size: 50px;
+    top: 0%;
+    right: 20%;
+}
+}
